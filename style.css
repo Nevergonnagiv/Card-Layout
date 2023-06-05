@@ -19,6 +19,7 @@ body {
   margin-top: 70px;
   background: var(--w);
   text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 #card i {
   color: var(--b);
