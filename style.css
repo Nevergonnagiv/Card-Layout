@@ -1,0 +1,33 @@
+:root {
+  --green: #0f8000;
+  --w: #fff;
+  --b: #000;
+}
+body {
+  background: var(--b);
+  color: var(--w);
+  border: 0;
+}
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 12px;
+}
+#card {
+  width: 420px;
+  height: 250px;
+  margin-top: 70px;
+  background: var(--w);
+  text-align: center;
+}
+#card i {
+  color: var(--b);
+  font-size: 100px;
+  padding: 67px;
+}
+#card:hover {
+  background: var(--green);
+}
+#card:hover i {
+  color: var(--w) !important;
+}
